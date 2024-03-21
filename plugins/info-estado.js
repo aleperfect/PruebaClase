@@ -22,12 +22,12 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = 'The Mystic Bot';
+  const wm = 'PruebaBot';
   const info = ` _*< INFO - ESTADO />*_
 
  ▢ *Prop.:* 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧
- ▢ *WA:* +51992621691
- ▢ *PayPal:* paypal.me/aleizn
+ ▢ *WA:* 9926216012
+ ▢ *Yape:* 9992621601
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}

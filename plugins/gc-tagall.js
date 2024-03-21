@@ -4,17 +4,16 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`
-let teks = `🔊 Deseas bot para tu grupo? ➡️ Wa.me/51992621601
-*⺀🥵Buen@s días, tardes y noches pero no mas bueno que yo⺀*\n\n❄️ ${oi}\n\n❄️ *@𝕒𝕝𝕖.𝕚𝕫𝕟_𝟚𝟘:*\n`
+let oi = `*Aviso:* ${pesan}`
+let teks = `*⺀Bienvenido jkkfjkk ⺀*\n\n❄️ ${oi}\n\n❄️ *Etiquetas:*\n`
 for (let mem of participants) {
-teks += `🇨🇳🐺 @${mem.id.split('@')[0]}\n`}
-teks += `➤ 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧`
+teks += `❄️ @${mem.id.split('@')[0]}\n`}
+teks += `➤ 𝐏𝐫𝐮𝐞𝐛𝐚𝐁𝐨𝐭`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
-handler.help = ['tagall <mesaje>','invocar <mesaje>']
+handler.help = ['tagall <mesaje>','botactivate <mesaje>']
 handler.tags = ['group']
-handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten)$/i
+handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten|botactivate)$/i
 handler.admin = true
 handler.group = true
 export default handler

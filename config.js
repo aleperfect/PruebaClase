@@ -38,7 +38,7 @@ global.suittag = ['51992621601'];
 global.prems = ['51992621601'];
 
 global.packname = 'Sticker';
-global.author = '𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃';
+global.author = '𝐀𝐥𝐞𝐢𝐳𝐧kk-𝐌𝐃';
 global.wm = '𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃t';
 global.titulowm = '𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃';
 global.titulowm2 = `𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃`
